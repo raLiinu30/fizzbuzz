@@ -45,8 +45,8 @@ Fizz
 Buzz
 """
 number = input('How many numbers shall we print? ')
-fizz = input('For multiples of what number shall we print "Fizz"? ')
-buzz = input('For multiples of what number shall we print "Buzz"? ')
+fizz = input("For multiples of what number shall we print 'Fizz'? ")
+buzz = input("For multiples of what number shall we print 'Buzz'? ")
 
 for x in range(1, int(number)+1):
     if x%((int(fizz)*int(buzz)))==0:

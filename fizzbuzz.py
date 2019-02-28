@@ -49,7 +49,7 @@ fizz = input("For multiples of what number shall we print 'Fizz'? ")
 buzz = input("For multiples of what number shall we print 'Buzz'? ")
 
 for x in range(1, int(number)+1):
-    if x%((int(fizz)*int(buzz)))==0:
+    if x%int(fizz)==0 and x%int(buzz)==0:
         print('FizzBuzz')
     elif x%(int(fizz))==0:
         print('Fizz')
